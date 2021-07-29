@@ -1,0 +1,108 @@
+html, body, h1, h2, h3, h4, h5, p, a, li {
+  font-family: "Roboto", sans-serif;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-inner {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner-section {
+  text-align: center;
+  padding: 150px 20px;
+  background-color: #C8E8E5;
+}
+.banner-section .banner-logo {
+  max-width: 500px;
+  width: 100%;
+}
+
+.info-banner-section {
+  background-color: #3C504C;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+.info-banner-section h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1.5;
+}
+
+.intro-section {
+  padding: 100px;
+}
+.intro-section h3 {
+  margin: 0;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 38px;
+  letter-spacing: 0.3;
+  color: #3C504C;
+  border-bottom: 2px solid #3C504C;
+  display: inline-block;
+}
+.intro-section p {
+  color: #3C504C;
+}
+
+.values-section {
+  padding: 100px;
+  background-color: #3C504C;
+}
+.values-section h3 {
+  margin: 0;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 38px;
+  letter-spacing: 0.3;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  display: inline-block;
+}
+.values-section p, .values-section li {
+  color: #ffffff;
+}
+
+.contact-section {
+  padding: 100px;
+  background-color: #C8E8E5;
+  text-align: center;
+}
+.contact-section h4 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0.3;
+  color: #3C504C;
+}
+.contact-section a {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #3C504C;
+}
+.contact-section .contact-logo {
+  max-width: 300px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

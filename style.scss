@@ -1,0 +1,130 @@
+// variables
+$white: #ffffff;
+$black: #000000;
+$primary-color: #C8E8E5;
+$secdonary-color: #3C504C;
+
+$primary-font: 'Roboto', sans-serif;
+
+// general styles
+html, body, h1, h2, h3, h4, h5, p, a, li {
+   font-family: $primary-font;
+}
+
+p, li {
+   font-size: 18px;
+   line-height: 22px;
+   letter-spacing: 1;
+   margin-top: 0;
+   margin-bottom: 25px;
+   font-weight: 400;
+}
+
+.section {
+   max-width: 1440px;
+   // width: 100%;
+   margin: 0 auto;
+}
+
+.section-inner {
+   max-width: 950px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+// banner style
+.banner-section {
+   text-align: center;
+   padding: 150px 20px;
+   background-color: $primary-color;
+
+   .banner-logo {
+      max-width: 500px;
+      width: 100%;
+   }
+}
+
+// info banner styles
+.info-banner-section {
+   background-color: $secdonary-color;
+   color: $white;
+   text-align: center;
+   padding: 20px;
+
+   h2 {
+      margin: 0; 
+      font-weight: 300;  
+      font-size: 20px;
+      letter-spacing: 1.5;
+   }
+}
+
+// intro section styles
+.intro-section {
+   padding: 100px;
+
+   h3 {
+      margin: 0;
+      margin-bottom: 35px; 
+      font-weight: 400;  
+      font-size: 38px;
+      letter-spacing: 0.3;
+      color: $secdonary-color;
+      border-bottom: 2px solid $secdonary-color;
+      display: inline-block;
+   }
+
+   p {
+      color: $secdonary-color;
+   }
+}
+
+// values section styles
+.values-section {
+   padding: 100px;
+   background-color: $secdonary-color;
+
+   h3 {
+      margin: 0;
+      margin-bottom: 35px; 
+      font-weight: 400;  
+      font-size: 38px;
+      letter-spacing: 0.3;
+      color: $white;
+      border-bottom: 2px solid $white;
+      display: inline-block;
+   }
+
+   p, li {
+      color: $white;
+   }
+}
+
+// contect section styles
+.contact-section {
+   padding: 100px;
+   background-color: $primary-color;
+   text-align: center;
+
+   h4 {
+      margin: 0;
+      margin-bottom: 30px; 
+      font-weight: 400;  
+      font-size: 34px;
+      letter-spacing: 0.3;
+      color: $secdonary-color;
+   }
+
+   a {
+      margin-bottom: 20px;
+      display: block;
+      font-size: 18px;
+      text-decoration: none;
+      color: $secdonary-color;
+   }
+
+   .contact-logo {
+      max-width: 300px;
+      width: 100%;
+   }
+}
