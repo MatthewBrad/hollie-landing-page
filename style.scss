@@ -3,7 +3,6 @@ $white: #ffffff;
 $black: #000000;
 $primary-color: #C8E8E5;
 $secdonary-color: #3C504C;
-
 $primary-font: 'Roboto', sans-serif;
 
 // general styles
@@ -38,6 +37,10 @@ p, li {
    padding: 150px 20px;
    background-color: $primary-color;
 
+   @media only screen and (max-width: 768px) {
+      padding: 80px 20px;   
+   }
+
    .banner-logo {
       max-width: 500px;
       width: 100%;
@@ -56,12 +59,21 @@ p, li {
       font-weight: 300;  
       font-size: 20px;
       letter-spacing: 1.5;
+
+      @media only screen and (max-width: 768px) {
+         font-size: 18px;   
+      }
    }
 }
 
 // intro section styles
 .intro-section {
    padding: 100px;
+
+   @media only screen and (max-width: 768px) {
+      padding: 50px 20px;  
+      text-align: center; 
+   }
 
    h3 {
       margin: 0;
@@ -72,6 +84,10 @@ p, li {
       color: $secdonary-color;
       border-bottom: 2px solid $secdonary-color;
       display: inline-block;
+
+      @media only screen and (max-width: 768px) {
+         font-size: 30px;   
+      }
    }
 
    p {
@@ -84,6 +100,11 @@ p, li {
    padding: 100px;
    background-color: $secdonary-color;
 
+   @media only screen and (max-width: 768px) {
+      padding: 50px 20px;  
+      text-align: center; 
+   }
+
    h3 {
       margin: 0;
       margin-bottom: 35px; 
@@ -93,6 +114,10 @@ p, li {
       color: $white;
       border-bottom: 2px solid $white;
       display: inline-block;
+
+      @media only screen and (max-width: 768px) {
+         font-size: 30px;   
+      }
    }
 
    p, li {
@@ -106,6 +131,10 @@ p, li {
    background-color: $primary-color;
    text-align: center;
 
+   @media only screen and (max-width: 768px) {
+      padding: 80px 20px;   
+   }
+
    h4 {
       margin: 0;
       margin-bottom: 30px; 
@@ -113,6 +142,10 @@ p, li {
       font-size: 34px;
       letter-spacing: 0.3;
       color: $secdonary-color;
+
+      @media only screen and (max-width: 768px) {
+         font-size: 28px;   
+      }
    }
 
    a {
@@ -126,5 +159,26 @@ p, li {
    .contact-logo {
       max-width: 300px;
       width: 100%;
+      margin-bottom: 30px;
+   }
+}
+
+// scroll to top button styles
+#scrollToButton {
+   position: fixed;
+   bottom: 5%;
+   right: 5%;
+   background-color: $white;
+   padding: 0;
+   border-radius: 50%;
+   border: none;
+   cursor: pointer;
+
+   img {
+      width: 40px;
+
+      @media only screen and (max-width: 768px) {
+         width: 30px;
+      }
    }
 }
