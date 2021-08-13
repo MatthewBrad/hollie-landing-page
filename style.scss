@@ -34,15 +34,15 @@ p, li {
 // banner style
 .banner-section {
    text-align: center;
-   padding: 100px 20px;
+   padding: 80px 20px;
    background-color: $primary-color;
 
    @media only screen and (max-width: 768px) {
-      padding: 80px 20px;   
+      padding: 60px 20px;   
    }
 
    .banner-logo {
-      max-width: 450px;
+      max-width: 400px;
       width: 100%;
    }
 }
