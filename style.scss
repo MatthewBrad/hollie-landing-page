@@ -34,7 +34,7 @@ p, li {
 // banner style
 .banner-section {
    text-align: center;
-   padding: 150px 20px;
+   padding: 100px 20px;
    background-color: $primary-color;
 
    @media only screen and (max-width: 768px) {
@@ -42,7 +42,7 @@ p, li {
    }
 
    .banner-logo {
-      max-width: 500px;
+      max-width: 450px;
       width: 100%;
    }
 }
