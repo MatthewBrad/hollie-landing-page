@@ -22,6 +22,17 @@ p, li {
   margin: 0 auto;
 }
 
+.col {
+  width: 49%;
+  display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  .col {
+    width: 100%;
+    display: block;
+  }
+}
+
 .banner-section {
   text-align: center;
   padding: 80px 20px;
@@ -82,6 +93,13 @@ p, li {
 .intro-section p {
   color: #3C504C;
 }
+.intro-section .hollie-photo {
+  max-width: 250px;
+  width: 100%;
+}
+.intro-section .photo-col {
+  text-align: center;
+}
 
 .values-section {
   padding: 100px;
@@ -91,6 +109,12 @@ p, li {
   .values-section {
     padding: 50px 20px;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .values-section ul {
+    padding: 0;
+    list-style-type: none;
   }
 }
 .values-section h3 {
@@ -110,6 +134,19 @@ p, li {
 }
 .values-section p, .values-section li {
   color: #ffffff;
+}
+
+.img-spacer-section {
+  background-image: url("assets/workshop-photo.jpg");
+  background-position: center 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+@media only screen and (max-width: 768px) {
+  .img-spacer-section {
+    height: 250px;
+  }
 }
 
 .contact-section {

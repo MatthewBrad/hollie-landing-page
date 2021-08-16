@@ -31,6 +31,16 @@ p, li {
    margin: 0 auto;
 }
 
+.col {
+   width: 49%;
+   display: inline-block;
+
+   @media only screen and (max-width: 768px) {
+      width: 100%;
+      display: block;  
+   }
+}
+
 // banner style
 .banner-section {
    text-align: center;
@@ -93,6 +103,15 @@ p, li {
    p {
       color: $secdonary-color;
    }
+
+   .hollie-photo {
+      max-width: 250px;
+      width: 100%;
+   }
+
+   .photo-col {
+      text-align: center;
+   }
 }
 
 // values section styles
@@ -103,6 +122,13 @@ p, li {
    @media only screen and (max-width: 768px) {
       padding: 50px 20px;  
       text-align: center; 
+   }
+
+   ul {
+      @media only screen and (max-width: 768px) {
+         padding: 0;
+         list-style-type: none;
+      }
    }
 
    h3 {
@@ -122,6 +148,19 @@ p, li {
 
    p, li {
       color: $white;
+   }
+}
+
+// image spacer section styles
+.img-spacer-section {
+   background-image: url("assets/workshop-photo.jpg");
+   background-position: center 25%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+
+   @media only screen and (max-width: 768px) {
+      height: 250px;  
    }
 }
 
